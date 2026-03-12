@@ -6,3 +6,8 @@ class Calculator:
         sum = x + y
         self._current_val = sum
         return sum
+
+    def subtract(self,x,y):
+        diff = x - y
+        self._current_val = diff
+        return diff
