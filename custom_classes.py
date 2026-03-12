@@ -11,3 +11,8 @@ class Calculator:
         diff = x - y
         self._current_val = diff
         return diff
+    
+    def multiply(self,x,y):
+        product = x * y
+        self._current_val = product
+        return product
